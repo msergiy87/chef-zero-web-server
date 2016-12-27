@@ -1,3 +1,16 @@
+# Usage
+
+Change web-server in Vagrantfile
+
+add in /etc/hosts
+```
+127.0.0.1 vagrant
+```
+and call
+```
+http://vagrant:4567
+```
+
 # Overview
 
 Every Chef installation needs a Chef Repository. This is the place where cookbooks, roles, config files and other artifacts for managing systems with Chef will live. We strongly recommend storing this repository in a version control system such as Git and treat it like source code.
